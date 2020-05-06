@@ -20,7 +20,7 @@ boot package install target
 
 3. Deploy `.jar` archive to local project repo e.g.
 ```
-mvn deploy:deploy-file -Dfile=okta-auth-js-2.13.0-0.jar -DartifactId=okta-auth-js -Dversion=2.13.0-0 -DgroupId=cljsjs -Dpackaging=jar -Durl=file:repo
+mvn deploy:deploy-file -Dfile=okta-auth-js-3.1.0-0.jar -DartifactId=okta-auth-js -Dversion=3.1.0-0 -DgroupId=cljsjs -Dpackaging=jar -Durl=file:repo
 ```
 
 4. Finally add dependency to your maven repository
@@ -32,7 +32,7 @@ lein deps
 
 [](dependency)
 ```clojure
-[cljsjs/okta-auth-js "2.13.0-0"]
+[cljsjs/okta-auth-js "3.1.0-0"]
 ```
 [](/dependency)
 
